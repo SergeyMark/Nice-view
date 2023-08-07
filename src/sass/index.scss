@@ -1,2 +1,13 @@
-@import './common';
-@import './example';
+//normalize
+@import './base/common';
+// fonts
+@import './base/fonts';
+// variables
+@import './base/vars';
+// reset
+@import './base/reset';
+//header
+@import './layout/header';
+@import './components/logo';
+// container
+@import './base/container';

@@ -1,0 +1,11 @@
+.logo{
+    display: flex;
+    align-items: center;
+
+    &__name{
+        color: var(--logo-color);
+        font-size: 32px;
+        line-height: 40px; /* 125% */
+        letter-spacing: -2.56px;
+    }
+}

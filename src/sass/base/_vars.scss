@@ -1,0 +1,32 @@
+:root{
+    //font
+    --title-fonts: 'Nunito', sans-serif;
+    --text-fonts: 'Roboto-Condensed', sans-serif;
+
+    // color
+    --logo-color: #1C4C6B;
+    --footer-logo-color: #5597C1;
+    --title-color: #2E688D;
+    --text-color: #324052;
+    --special-color: #8D6515;
+    --menu-color: #EEE8DE;
+    --menu-active-color: #254255;
+    --form-text-color: #BFBFBF;
+    --footer-text-color: #DDE5E8;
+
+    // button
+    --button-default-color: #2B9EE7;
+    --button-default-bg-color: #C9E4EA;
+    --button-border-color: 2px solid #2B9EE7;
+
+    // gradient
+    --bg-hero-gradient: linear-gradient(90deg, #FBFCFC 0%, rgba(255, 255, 255, 0.00) 100%);
+    --bg-header-gradient: linear-gradient(180deg, #766A63 0%, rgba(198, 190, 187, 0.81) 100%);
+
+    // other
+    --bg-line-decoration: #CEB181;
+    --bg-footer: #776D67;
+    --bg-modal: rgba(16, 44, 81, 0.60);
+    --bg-input-modal: #F2EFEA;
+    --box-shadow: 1.9692307710647583px 1.9692307710647583px 3.9384615421295166px 0px rgba(0, 0, 0, 0.15);
+}
