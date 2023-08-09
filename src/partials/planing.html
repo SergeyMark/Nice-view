@@ -3,7 +3,30 @@
         <h2 class="planing__title">Особливості планування</h2>
         <div class="container-card">
             <article class="planing-card">
-                <img class="planing-card__img" src="./images/img/planing/city.jpg" alt="city">
+                <picture>
+                    <source
+                      media="(min-width: 1440px)"
+                      srcset="
+                        ../src/images/img/planing/city_lg@1x.jpg 1x,
+                        ../src/images/img/planing/city_lg@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                      ../src/images/img/planing/city_md@1x.jpg 1x,
+                      ../src/images/img/planing/city_md@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 390px)"
+                      srcset="
+                      ../src/images/img/planing/city_sm@1x.jpg 1x,
+                      ../src/images/img/planing/city_sm@2x.jpg 2x
+                      "
+                    />
+                    <img class="planing-card__img" src="./images/img/planing/city_lg.jpg" alt="city">
+                </picture>        
                 <div class="planing-card__group">
                     <div class="group-count indent">
                         <p class="quntity">88</p>
@@ -16,7 +39,30 @@
                 </div>
             </article>
             <article class="planing-card">
-                <img class="planing-card__img" src="./images/img/planing/city_1.jpg" alt="city">
+                <picture>
+                    <source
+                      media="(min-width: 1440px)"
+                      srcset="
+                        ../src/images/img/planing/city_lg1@1x.jpg 1x,
+                        ../src/images/img/planing/city_lg1@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 768px)"
+                      srcset="
+                      ../src/images/img/planing/city_md1@1x.jpg 1x,
+                      ../src/images/img/planing/city_md1@2x.jpg 2x
+                      "
+                    />
+                    <source
+                      media="(min-width: 390px)"
+                      srcset="
+                      ../src/images/img/planing/city_sm1@1x.jpg 1x,
+                      ../src/images/img/planing/city_sm1@2x.jpg 2x
+                      "
+                    />
+                    <img class="planing-card__img" src="./images/img/planing/city_lg_1.jpg" alt="city">
+                </picture>  
                 <div class="planing-card__group">
                 <div class="group-count-special indent">
                     <p class="quntity quntity-special">300</p>
