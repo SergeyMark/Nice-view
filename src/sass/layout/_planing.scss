@@ -2,6 +2,14 @@
     padding-top: 72px;
     padding-bottom: 56px;
 
+    @media screen and (min-width: 767px) {
+        padding: 100px 0;
+    }
+
+    @media screen and (min-width: 1439px) {
+        padding: 120px 0;
+    }
+
     &__container{
         @media screen and (max-width: 767px) {
             padding: 0;
@@ -11,6 +19,7 @@
     &__title{
         color: var(--text-color);
         font-size: 24px;
+        font-weight: 400;
         line-height: calc(36 / 24); /* 150% */
         letter-spacing: -1.2px;
 
@@ -27,36 +36,140 @@
             height: 2px;
 
             border: 1px solid var(--bg-line-decoration);
+            background-color: var(--bg-line-decoration);
+
+            @media screen and (min-width: 767px) {
+                width: 190px;
+                height: 2px;
+            }
+
+            @media screen and (min-width: 1439px) {
+                width: 932px;
+                height: 4px;
+                
+                position: absolute;
+                bottom: -8px;
+                right: -60px;
+            }
+        }
+
+        @media screen and (min-width: 767px) {
+            font-size: 40px;
+            line-height: calc(48 / 40); /* 120% */
+            letter-spacing: -2px;
+
+            flex-direction: row-reverse;
+            gap: 32px;
+
+            margin-left: 0;
+            margin-bottom: 32px;
+        }
+
+        @media screen and (min-width: 1439px) {
+            line-height: calc(56 / 40); /* 140% */
+            letter-spacing: -2px;
+
+            position: relative;
+
+            flex-direction: unset;
+            justify-content: center;
         }
     }
 }
 
+.planing-card:nth-last-child(-n + 1){
+    margin-bottom: 0;
+}
+
 .planing-card{
     display: flex;
+    align-items: center;
     gap: 32px;
-    
+
+    &:nth-child(even){
+        flex-direction: row-reverse;
+    }
+
+    @media screen and (min-width: 767px) {
+        gap: 85px;
+        margin-bottom: 24px;
+    }
 
     &__img{
         width: 145px;
         height: 200px;
     
         border-radius: 8px;
+
+        @media screen and (min-width: 767px) {
+            width: 240px;
+            height: 360px;
+            border-radius: 15px
+        }
+    }
+}
+
+.quntity{
+    color: inherit;
+
+    font-size: 40px;
+    font-style: italic;
+    font-weight: 600;
+    line-height: calc(48 / 40); /* 120% */
+    letter-spacing: -2px;
+
+    @media screen and (min-width: 767px) {
+        font-size: 48px;
+        line-height: calc(56 / 48); /* 116.667% */
+        letter-spacing: -2.4px;
     }
 
-    .quntity{
+    @media screen and (min-width: 1439px) {
+        font-size: 68px;
+        line-height: calc(68 / 66); /* 97.059% */
+        letter-spacing: -3.4px;
+    }
+}
+
+.planing-card__desc{
+    color: inherit;
+    
+    font-family: var(--text-fonts);
+    font-size: 20px;
+    line-height: calc(30 / 20);
+    letter-spacing: -0.8px;
+
+    @media screen and (min-width: 767px) {
+        font-size: 32px;
+        line-height: calc(40 / 32);
+        letter-spacing: -1.28px;
+    }
+
+    @media screen and (min-width: 1439px) {
         font-size: 40px;
-        font-style: italic;
-        font-weight: 600;
-        line-height: calc(48 / 40); /* 120% */
+        line-height: calc(56 / 40);
         letter-spacing: -2px;
     }
+}
 
-    .planing-card__desc{
-        color: var(--title-color);
-        
-        font-family: var(--text-fonts);
-        font-size: 20px;
-        line-height: calc(30 / 20);
-        letter-spacing: -0.8px;
+.group-count{
+    color: var(--title-color);
+}
+
+.group-count-special{
+    color: var(--special-color);
+}
+
+.indent{
+    margin-bottom: 8px;
+
+    @media screen and (min-width: 767px) {
+        margin-bottom: 23px;
+    }
+}
+
+.container-card{
+    @media screen and (min-width: 1440px) {
+        display: none;
     }
 }
