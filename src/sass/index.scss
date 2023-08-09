@@ -6,8 +6,22 @@
 @import './base/vars';
 // reset
 @import './base/reset';
+//other
+@import './components/btn-call';
+@import './utils/hidden';
+@import './utils/slide';
+// container
+@import './base/container';
 //header
 @import './layout/header';
 @import './components/logo';
-// container
-@import './base/container';
+@import './components/btn-lang';
+@import './components/humburger';
+@import './components/mobile-menu';
+//hero
+@import './layout/hero';
+@import './components/modal-call';
+// planing
+@import './layout/planing';
+
+

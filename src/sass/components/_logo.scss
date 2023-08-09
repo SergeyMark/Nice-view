@@ -2,10 +2,26 @@
     display: flex;
     align-items: center;
 
+    &__img{
+        width: 44px;
+        height: 42px;
+
+        @media screen and (min-width: 767px) {
+            width: 60px;
+            height: 60px;
+        }
+    }
+
     &__name{
         color: var(--logo-color);
         font-size: 32px;
-        line-height: 40px; /* 125% */
+        line-height: calc(40 / 32); /* 125% */
         letter-spacing: -2.56px;
+
+        transition: color 250ms var(--cubic-bz);
+    }
+
+    &:hover .logo__name{
+        color: var(--menu-color);
     }
 }

@@ -13,6 +13,7 @@
     --menu-active-color: #254255;
     --form-text-color: #BFBFBF;
     --footer-text-color: #DDE5E8;
+    --white: #FFF;
 
     // button
     --button-default-color: #2B9EE7;
@@ -28,5 +29,9 @@
     --bg-footer: #776D67;
     --bg-modal: rgba(16, 44, 81, 0.60);
     --bg-input-modal: #F2EFEA;
-    --box-shadow: 1.9692307710647583px 1.9692307710647583px 3.9384615421295166px 0px rgba(0, 0, 0, 0.15);
+    --bg-hero-container: rgba(251, 252, 252, 0.80);
+    --bg-hero-modal: #FBFCFC;
+    --shadow-hero-container: 2px 2px 40px 0px rgba(0, 0, 0, 0.50);
+    --shadow: 1.9692307710647583px 1.9692307710647583px 3.9384615421295166px 0px rgba(0, 0, 0, 0.15);
+    --cubic-bz: cubic-bezier(0.4, 0, 0.2, 1);
 }

@@ -1,18 +1,32 @@
 <header class="header">
-    <div class="container">
+    <div class="container flex-container">
         <a href="#" class="logo">
-            <img class="logo__img" src="./images/icons/logo.svg" alt="logo">
+            <img class="logo__img" src="./images/img/logo/logo.png" alt="logo">
             <span class="logo__name">Nice View</span>
         </a>
-        <button class="btn-lang" type="button">
-            <svg class="btn-lang__icon" width="36" height="30">
-                <use href="./images/icons/icon.svg#icon-lang"></use>
-            </svg>
-        </button>
-        <button class="btn-hamburger" type="button">
-            <svg class="btn-hamburger__icon" width="42" height="42">
-                <use href="./images/icons/icon.svg#icon-hamburger"></use>
-            </svg>
-        </button>
+        <!-- desktop address and navigation 1440px -->
+        <address class="address-header">
+            <a href="#" class="address-header__link">м.Київ, просп. Вознесенський 148</a>
+        </address>
+        <nav class="nav-header">
+            <ul class="nav-header__list">
+                <li class="nav-header__item"><a href="#" class="nav-header__link nav-header__link-active">Головна</a></li>
+                <li class="nav-header__item"><a href="#" class="nav-header__link">Про нас</a></li>
+                <li class="nav-header__item"><a href="#" class="nav-header__link">Контакти</a></li>
+            </ul>
+        </nav>
+        <!-- end desktop address and navigation -->
+        <div class="group-button flex-container">
+            <button class="btn-lang" type="button">
+                <svg class="btn-lang__icon" width="36" height="30">
+                    <use href="./images/icons/icon.svg#icon-lang"></use>
+                </svg>
+            </button>
+            <button class="btn-hamburger" type="button">
+                <svg class="btn-hamburger__icon" width="42" height="42">
+                    <use href="./images/icons/icon.svg#icon-hamburger"></use>
+                </svg>
+            </button>
+        </div>
     </div>
 </header>

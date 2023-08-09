@@ -1,0 +1,27 @@
+.btn-lang{
+    border: none;
+    background-color: transparent;
+    color: var(--menu-color);
+
+    margin-right: 20px;
+
+    @media screen and (min-width: 767px) {
+        margin-right: 0;
+    }
+
+    @media screen and (min-width: 1439px) {
+        padding: 16px;
+    }
+
+    &__icon{
+        @media screen and (min-width: 767px) {
+                width: 36px;
+                height: 40px; 
+        }
+
+        @media screen and (min-width: 1439px) {
+                width: 31px;
+                height: 36px;
+        }
+    }
+}
