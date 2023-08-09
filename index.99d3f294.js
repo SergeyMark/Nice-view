@@ -1,0 +1,2 @@
+const e=document.querySelector(".backdrop-modal"),c=document.querySelector("#mobile-menu"),t=document.querySelector(".btn-hamburger"),n=document.querySelector(".js-btn-open"),d=document.querySelector(".js-btn-close"),o=document.querySelector(".js-mobile-close");n.addEventListener("click",(function(){e.classList.remove("hidden")})),d.addEventListener("click",(function(){e.classList.add("hidden")}));t.addEventListener("click",(function(){c.classList.add("slide")})),o.addEventListener("click",(function(){c.classList.remove("slide")}));
+//# sourceMappingURL=index.99d3f294.js.map
